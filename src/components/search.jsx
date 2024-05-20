@@ -22,7 +22,7 @@ const Search = () => {
     };
 
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-row">
             <input
                 className="py-2 w-full md:w-80 rounded-s-lg px-2 text-zinc-800"
                 placeholder="Search..."
