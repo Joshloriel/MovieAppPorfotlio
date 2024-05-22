@@ -23,7 +23,7 @@ const Genre = () => {
         try {
             const response = await fetch(url, {
                 headers: {
-                    Authorization: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMTU5ZWU3ODc4ZTdmODgxMGZlMjIyY2MyMmNhNzU0ZSIsInN1YiI6IjY2MTM0NmU5MDQ4NjM4MDE2MzE5OWM2NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CdsBfhYiifQDhRWT0bL-GBfs6eMGgzGgA2Hmb72to7w',
+                    Authorization: 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMTU5ZWU3ODc4ZTdmODgxMGZlMjIyY2MyMmNhNzU0ZSIsInN1YiI6IjY2MTM0NmU5MDQ4NjM4MDE2MzE5OWM2NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CdsBfhYiifQDhRWT0bL-GBfs6eMGgzGgA2Hmb72to7w',
                     accept: 'application/json',
                 },
             });
